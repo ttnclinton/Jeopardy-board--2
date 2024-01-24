@@ -105,15 +105,13 @@ Pass.onclick=passButtonClicked;
 let inputAnswer = document.querySelector(".guess");
 
 Guess.onclick("click", () => {
-   let answer = inputAnswer.value;
+    let answer = inputAnswer.value;
     if(answer == placeHolder[0].answer){
-        console.log("Correct!");
+
     } else { 
 
     }
-});
-
-
+})
 
 function updateScore(){
 
